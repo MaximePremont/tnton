@@ -1,0 +1,8 @@
+main: fr.tnton.Main
+name: tnton
+version: 1.0.0
+description: Mini minecraft game TNT Run saved on the blockchain to learn how to use the Starton API.
+api-version: 1.19
+author: Maxime PREMONT and other contributors
+website: https://github.com/MaximePremont/tnton
+prefix: TNTON
