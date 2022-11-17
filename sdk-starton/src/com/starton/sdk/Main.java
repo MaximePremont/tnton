@@ -1,4 +1,6 @@
-import initialization.Initializer;
+package com.starton.sdk;
+
+import com.starton.sdk.initializer.Initializer;
 
 import java.io.IOException;
 

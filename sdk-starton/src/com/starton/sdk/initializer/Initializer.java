@@ -1,4 +1,4 @@
-package initialization;
+package com.starton.sdk.initializer;
 
 import java.io.IOException;
 import java.net.HttpURLConnection;
