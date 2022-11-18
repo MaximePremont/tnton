@@ -1,6 +1,7 @@
 package fr.tnton;
 
 import org.bukkit.Bukkit;
+import org.bukkit.entity.Player;
 import org.bukkit.plugin.Plugin;
 
 public class TntonPlugin {
@@ -14,6 +15,9 @@ public class TntonPlugin {
 	}
 	
 	public void disable() {
+		log("§eKicking player for game reset");
+		for (Player players : Bukkit.getOnlinePlayers())
+			players.kickPlayer("§e§lThe game is restarting...");
 		log("§6Plugin disabled");
 	}
 	
